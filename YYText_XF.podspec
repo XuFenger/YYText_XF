@@ -3,7 +3,9 @@ Pod::Spec.new do |s|
   s.name         = 'YYText_XF'
   s.summary      = 'Powerful text framework for iOS to display and edit rich text.'
   s.version      = '1.0.8'
-
+  s.license      = { :type => 'MIT', :file => 'LICENSE' }
+  s.authors      = { "XuFenger" => "developer@XuFenger.com" }
+  s.homepage     = 'https://github.com/XuFenger/YYText_XF'
   # 2. 源代码地址（关键！）
   s.source       = { :git => 'https://github.com/XuFenger/YYText_XF.git', :tag => s.version.to_s }
 
