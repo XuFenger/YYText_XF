@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.authors      = { "XuFenger" => "developer@XuFenger.com" }
   s.homepage     = 'https://github.com/XuFenger/YYText_XF'
   # 2. 源代码地址（关键！）
-  s.source       = { :git => 'https://github.com/XuFenger/YYText_XF.git', :tag => s.version.to_s }
+  s.source       = { :git => 'git@github.com:XuFenger/YYText_XF.git', :tag => s.version.to_s }
 
   # 3. 平台与依赖
   s.ios.deployment_target = '10.0'
